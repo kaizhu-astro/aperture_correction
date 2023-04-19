@@ -22,7 +22,7 @@ def get_alpha(Mr, g_i, n_Ser, q=None):
     The required quantities and ranges are:
     *    Mr:    [-18, -24]    SDSS r-band absolute magnitude
     *    g_i:   [0.4, 1.6]    SDSS g-band absolute magnitude minus SDSS i-band absolute magnitude
-    *    n_Ser:     [0, 8]        Sersic index
+    *    n_Ser: [0, 8]        Sersic index
     Optional:
     *    q:     [0, 1]        Axial ratio. If q is not None, apply the corrections to obtain the alpha
                               within circular aperture, see Equation (5) from Zhu et al. 2023
